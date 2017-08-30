@@ -1,0 +1,159 @@
+body{
+   margin: 0;
+   padding: 0;
+   height: 100%;
+
+}
+
+h1{
+   text-align: center;
+}
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+}
+
+.main{
+   text-decoration: none;
+   color: black;
+   font-size: 2em;
+}
+
+.main h2{
+   font-size: 2.3em;
+}
+
+
+.wrap{
+   margin: 0;
+   width: 100%;
+   height: 100%;
+   position: relative;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-image: url("bg3.jpg");
+   background-size: cover;
+   animation: imageAnimation 3s linear;
+}
+
+#one{
+   font-size: 4em;
+   padding: 0;
+   margin-left: 10px;
+   text-shadow: 1px 1px #d8d8d8;
+}
+
+#two{
+   margin: 10px;
+   position: absolute;
+   right: 0;
+   top: 10px;
+   text-shadow: 1px 1px #d8d8d8;
+}
+#three{
+   margin: 10px;
+   margin-bottom: 10px;
+   position: absolute;
+   bottom: 10px;
+   left: 0;
+   text-shadow: 1px 1px #d8d8d8;
+}
+
+#four{
+   margin: 10px;
+   position: absolute;
+   bottom: 10px;
+   right: 0;
+   text-shadow: 1px 1px #d8d8d8;
+}
+
+#bottom_bar{
+   width: 40%;
+   position: absolute;
+   bottom: 0;
+   left: 30%;
+   right: 30%;
+}
+
+#contact{
+   list-style: none;
+}
+
+#contact li{
+   width: 33.33%;
+   margin: 0 auto;
+   float: left;
+}
+
+#contact li a{
+   text-align: center;
+   font-size: 2.2em;
+   color: black;
+   display: block;
+   padding: 8px;
+}
+
+#maintext{
+   font-size: 1.20em;
+   text-shadow: 1.2px 1.2px #A9A9A9;
+}
+
+.ui.grid{
+   margin-top: 80px;
+}
+
+a :hover{
+   color: black;
+}
+
+.ui.card{
+   text-align: center;
+   margin: 0 auto;
+   width: 60%;
+}
+
+.emptybar{
+   background-color: #d9d9d9;
+   width: 100%;
+   height: 12px;
+   margin: 5px;
+}
+
+.fillbar{
+   background-color: black;
+   width: 50%;
+   height: 12px;
+}
+
+#abtCalvin{
+   margin-top: 0;
+}
+
+#calvin{
+   border-radius: 100%;
+}
+
+#imagecenter{
+   margin: 0 auto;
+   margin-bottom: 40px;
+   margin-top: 30px;
+}
+
+#descrip{
+   text-shadow: none;
+   font-size: 1.15em;
+   text-align: center;
+   text-rendering: auto;
+}
+
+.ui.grid{
+   margin: 0;
+}
+
+#prjPage{
+   background-color: black;
+   color: white;
+}
