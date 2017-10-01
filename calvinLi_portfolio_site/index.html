@@ -3,14 +3,16 @@
    <head>
        <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css" rel="stylesheet">
        <link href="styles.css" rel="stylesheet">
+       <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+       <script type="text/javascript" src="https://unpkg.com/onscreen/dist/on-screen.umd.min.js"></script>
    </head>
    <body>
-      <div class="container wrap">
+      <div class="container wrap" id="page1">
          <h2 class="main" id="one">CALVIN LI</h2>
          <a class="main" id="two" href="aboutme.html">ABOUT ME</a>
          <a class="main" id="three" href="/">MY PROJECTS</a>
          <a class="main" id="four" href="/">CONTACT ME</a>
-         
+
             <div class="ui grid">
                <div class="six wide column">
                </div>
@@ -27,22 +29,61 @@
             </div>
 
 
-         <div id="bottom_bar">
-            <ul id="contact">
-               <li>
-                  <a><i class="mail outline icon"></i></a>
-               </li>
-               <li>
-                  <a><i class="github icon"></i></a>
-               </li>
-               <li>
-                  <a><i class="linkedin icon"></i></a>
-               </li>
-            </ul>
-         </div>
-      </div>
-      <div class="container" id="pagetwo">
 
       </div>
+      <div class="container" id="pagetwo">
+          <div class="ui grid" id="abtCalvin">
+             <div class="four wide column">
+
+             </div>
+             <div class="eight wide column">
+                <h1 style="text-align: center;">About me</h1>
+                <!-- innergrid -->
+                <div class=" ui grid">
+                   <div class="five wide column">
+                      <div class="ui small image" id="imagecenter">
+                         <img id="calvin" src="calvin.jpg" />
+                      </div>
+                   </div>
+                   <div class="eleven wide column">
+                      <div class="ui grid">
+                         <div class="ui row">
+                            <h4>CAD Design</h4>
+                            <div class="emptybar">
+                               <div class="fillbar" id="bar1">
+                               </div>
+                            </div>
+                         </div>
+                         <div class="ui row">
+                            <h4>Leadership</h4>
+                            <div class="emptybar">
+                               <div class="fillbar" id="bar2">
+                               </div>
+                            </div>
+                         </div>
+                         <div class="ui row">
+                            <h4>Teamwork</h4>
+                            <div class="emptybar">
+                               <div class="fillbar" id="bar3">
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+
+                <p id="descrip">
+                   "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                </p>
+             </div>
+             <div class="four wide column" id="gears">
+
+             </div>
+          </div>
+      </div>
+      <div class="container" id="page3">
+
+      </div>
+      <script src="script.js"></script>
    </body>
 </html>
